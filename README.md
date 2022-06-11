@@ -6,7 +6,7 @@ Pseudoalgorithm:
 – Convert from Lat/Lon to Cartesian (X/Y/Z).
 – Code the flight routes and connect the IDs.
 – Project the routes on a sphere.
-– Create curvature for the paths between nodes.
+– Create a curvature for the paths between nodes.
 ```
 
 ## Cartesian System of Coordinates
