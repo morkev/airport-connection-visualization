@@ -57,7 +57,7 @@ if (src >= 0 && dst >= 0) {
 ## Solving a Few Challenges
 At this point, you will notice a couple sets of three or more red edges – we don't need this data. In order to fix these red lines, we must connect the output from the last node (i.e., `pointwrangle-2`) to a new `blast node` of <i>Primitive Group</i> type.
 
-Finally, all our connections are being represented by a straight line, and it is hard to distinguish any path. First, make sure you have the `Curve U Attribute` enabled in the `resample node`. To create a curvature between the path from the airport source and the airport destination, we will use the following `VEXpression`: 
+Finally, all our connections are being represented by a straight line, and it is hard to distinguish any path. Make sure you have the `Curve U Attribute` enabled in the `resample node`. To create a curvature between the path from the airport source and the airport destination, we will use the following `VEXpression`: 
 
 ```python
 float scale = chf("Lift_Scale");
